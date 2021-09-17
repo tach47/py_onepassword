@@ -1,4 +1,4 @@
-# py-onepassword
+# py_onepassword
 
 ## Requirements
 - 1password.com account
