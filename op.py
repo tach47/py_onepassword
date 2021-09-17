@@ -86,7 +86,7 @@ def get_item_by_uuid(uuid):
     command = 'op get item %s' % uuid
     status, output = call_op(command)
     for field in output['details']['fields']:
-        item['%s' % field['name']] = field['value']
+        item['%s' % field['designation']] = field['value']
     return item
 
 
